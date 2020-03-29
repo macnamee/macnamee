@@ -5,8 +5,6 @@ theme = "hugo-future-imperfect"
 publishDir = "docs"
 
 paginate = 3
-disqusShortname = "shortname"
-googleAnalytics = "UA-151294131-1"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
@@ -24,15 +22,15 @@ canonifyURLs = true
   # Sets navbarTitle to match the section of the website
   dynamicTitles        = true
   # Sets RSS icons to appear on the sidebar with the social media buttons
-  rssAppearAtTop       = true
-  rssAppearAtBottom    = true
+  rssAppearAtTop       = false
+  rssAppearAtBottom    = false
   # Sets Social Media icons to appear on the sidebar
-  socialAppearAtTop    = true
-  socialAppearAtBottom = true
+  socialAppearAtTop    = false
+  socialAppearAtBottom = false
   # Sets Categories to sort by number of posts instead of alphabetical
   categoriesByCount    = true
   # set to show or to hide categories in the sidebar
-  showSidebarCategories = true
+  showSidebarCategories = false
   # Sets Estimated Reading Time to appear in post headers
   includeReadingTime   = true
   # Sets the Favicon and Version for the site. Default support is for
@@ -44,14 +42,14 @@ canonifyURLs = true
   # Sets Social Share links to appear on posts
   socialShare          = true
   # Sets specific share to appear on posts (default behavior is to appear)
-  socialShareTwitter   = true
-  socialShareGoogleplus = true
-  socialShareFacebook  = true
-  socialShareReddit    = true
-  socialShareLinkedin  = true
-  socialShareStumbleupon = true
-  socialSharePinterest = true
-  socialShareEmail     = true
+  socialShareTwitter   = false
+  socialShareGoogleplus = false
+  socialShareFacebook  = false
+  socialShareReddit    = false
+  socialShareLinkedin  = false
+  socialShareStumbleupon = false
+  socialSharePinterest = false
+  socialShareEmail     = false
 
   # Load custom CSS or JavaScript files. The variable is an array so that you
   # can load multiple files if necessary. You can also load the standard theme
@@ -90,16 +88,16 @@ canonifyURLs = true
 [params.intro]
   header    = "macnamee.org"
 
-  paragraph = "Adventures in Password discovery."
+  paragraph = ""
 
-  about     = "All the techniques provided in the tutorials on macnamee.org are solely meant for educational purposes. All of the techniques taught here are only meant to be used in a closed laboratory environment or in consent with a second party. If you are using any of these techniques for illegal purposes, macnamee.org can’t be held responsible for possible lawful consequences.  All actions and activities related to the material contained within macnamee.org is solely your responsibility.  If you misuse this information for illegal activities, criminal charges may be brought against your person.  Some links may lead to malicious websites, click carefully, macnamee.org can't be held responsible."
+  about     = ""
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/macnamee.org-100x100.png"
+    src       = "/img/main/macnamee.org.png"
     # Sets Image to be a cirlce
-    circle    = false
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
     width     = ""
@@ -123,23 +121,6 @@ canonifyURLs = true
   identifier = "fa fa-id-card-o"
   weight = 2
 
-[[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  identifier = "fa fa-newspaper-o"
-  weight = 3
-
-[[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
-
-[[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  identifier = "fa fa-sitemap"
-  weight = 5
 
 [[menu.main]]
   name = "Contact"
