@@ -1,5 +1,5 @@
 +++
-author = "Ryan"
+author = ""
 categories = ["Main"]
 date = "2020-01-01"
 title = "Welcome to MACNAMEE.ORG"
