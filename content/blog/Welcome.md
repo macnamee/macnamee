@@ -11,8 +11,8 @@ linktitle = ""
 type = "post"
 +++ 
 
-View my profile on [LinkedIn](https://au.linkedin.com/in/ryan-macnamee) 
-...
+You can view my profile on [LinkedIn](https://au.linkedin.com/in/ryan-macnamee) 
+
 
 <!--
 ![Sydney](/img/main/sydney-2-1452170-1280x960.jpg)
